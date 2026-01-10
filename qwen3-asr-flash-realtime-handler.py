@@ -104,7 +104,7 @@ def main():
     setup_logging()
     init_api_key()
 
-    audio_file_path = "./record_16khz.pcm"
+    audio_file_path = "./result_24k.pcm"
     conversation = OmniRealtimeConversation(
         model='qwen3-asr-flash-realtime',
         # 以下为北京地域url，若使用新加坡地域的模型，需将url替换为：wss://dashscope-intl.aliyuncs.com/api-ws/v1/realtime

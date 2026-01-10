@@ -32,7 +32,7 @@ stream = p.open(format=pyaudio.paInt16,
                 output=True)
 
 
-text = "你好啊，我系通义千问"
+text = "你好啊，我系通义千问，好食好夹嘅"
 response = dashscope.MultiModalConversation.call(
     # 新加坡和北京地域的API Key不同。获取API Key：https://help.aliyun.com/zh/model-studio/get-api-key
     # 若没有配置环境变量，请用百炼API Key将下行替换为：api_key = "sk-xxx"
